@@ -1,0 +1,210 @@
+body {
+	font-family: 'Teko', sans-serif !important;
+	background-color: #16965f;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .header-image{
+        max-width: 504px;
+        max-height: 504px;
+        width: auto;
+        height: auto;
+    }
+    
+    .vilarlogo{
+        width: 10%;
+        height: 10%;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      
+      h2,
+      h3,
+      a {
+          color: #34495e;
+      }
+      
+      a {
+          text-decoration: none;
+      }
+      
+      
+      
+      .logo {
+          margin: 0;
+          font-size: 1.45em;
+      }
+      
+      .main-nav {
+        margin-top: 5px;
+        font-size: 30px;
+      
+      }
+      .logo a,
+      .main-nav a {
+          padding: 10px 15px;
+          text-transform: uppercase;
+          text-align: center;
+          display: block;
+      }
+      
+      .main-nav a {
+          color: #fff;
+          font-size: .99em;
+      }
+      
+      .main-nav a:hover {
+          color: #d46d15;
+      }
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.input-field input:focus {
+    border-color: #16965f;
+    box-shadow: 0 0 5px rgba(0, 177, 21, 0.5);
+}
+
+.input-field label {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+.input-field input:focus + label,
+.input-field input:not(:placeholder-shown) + label {
+    top: -8px;
+    left: 16px;
+    font-size: 12px;
+    color: #16965f;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    background-color: #16965f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #16965f;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center a {
+    color: #16965f;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+  .checkbox-wrapper-21 .control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .checkbox-wrapper-21 .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .checkbox-wrapper-21 .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+  }
+  .checkbox-wrapper-21 .control:hover input ~ .control__indicator,
+  .checkbox-wrapper-21 .control input:focus ~ .control__indicator {
+    background: #ccc;
+  }
+  .checkbox-wrapper-21 .control input:checked ~ .control__indicator {
+    background: #2aa1c0;
+  }
+  .checkbox-wrapper-21 .control:hover input:not([disabled]):checked ~ .control__indicator,
+  .checkbox-wrapper-21 .control input:checked:focus ~ .control__indicator {
+    background: #0e647d;
+  }
+  .checkbox-wrapper-21 .control input:disabled ~ .control__indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .checkbox-wrapper-21 .control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  .checkbox-wrapper-21 .control input:checked ~ .control__indicator:after {
+    display: block;
+  }
+  .checkbox-wrapper-21 .control--checkbox .control__indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  .checkbox-wrapper-21 .control--checkbox input:disabled ~ .control__indicator:after {
+    border-color: #7b7b7b;
+  }
