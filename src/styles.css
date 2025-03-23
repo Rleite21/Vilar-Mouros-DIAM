@@ -327,6 +327,14 @@ ul {
     text-shadow: 5px 1px 5px black;
 
 }
+
+.names{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    font-style: bold;
+}
 #email {
     text-align: center;
     color: black;
