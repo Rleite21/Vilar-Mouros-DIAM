@@ -1,0 +1,338 @@
+html,
+body{
+	font-family: 'Teko', sans-serif !important;
+	background-color: #16965f;
+}
+
+header {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+
+.header_container{
+
+    h3{
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    
+    width: 100%;
+    padding: 5%;
+    
+    
+    color: black;
+
+}
+
+    
+
+    #festival-photo img{
+        max-width: 504px;
+        max-height: 504px;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        
+    }
+    
+    .vilarlogo{
+        width: 10%;
+        height: 10%;
+    }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+
+  
+  
+  
+  h2,
+  h3,
+  a {
+      color: #000000;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  
+  
+  .logo {
+      margin: 0;
+      font-size: 1.45em;
+  }
+  
+  .main-nav {
+    margin-top: 5px;
+    font-size: 30px;
+  
+  }
+  .logo a,
+  .main-nav a {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+  }
+  
+  .main-nav a {
+      color: #fff;
+      font-size: .99em;
+  }
+  
+  .main-nav a:hover {
+      color: #d46d15;
+  }
+
+.tabela {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.tabela.tabela-conteiner{
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+    img{
+        width:210px;
+        height:210px;
+    }
+    figure{
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+    }
+
+    figcaption{
+        text-align: center;
+        padding: 10px 20px;
+        }
+
+    .tabela thead tr {
+        background-color: #d46d15;
+        text-align: center;
+    }
+
+	table caption{
+        caption-side: top;
+        vertical-align: middle;
+    }
+
+    
+
+    .tabela th,
+    .tabela td {
+        padding: 8px;
+        border-width: 1px;
+        border-color: #ddd;
+        border-style: solid;
+        border-spacing: 0;
+		background-color: white;
+    }
+
+    .tabela tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .previsaoClimaterica {
+        margin: 0;
+        padding: 0.3rem;
+        background-color: #eee;
+
+
+      }
+      
+      .previsaoClimaterica > h1,
+      .previsao-climaterica {
+        margin: 0.5rem;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+      }
+      
+      .previsao-climaterica {
+        background: right/contain content-box border-box no-repeat
+          url(https://png.pngtree.com/png-clipart/20200225/original/pngtree-rain-icon-creative-design-template-png-image_5259110.jpg) white;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+          border-radius: 15px 15px 15px 15px;
+          
+      }
+
+      .previsao-climaterica h2{
+        margin: 0.2rem;
+        color: rgb(0, 149, 255);
+        font-weight: bold;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px black;
+      }
+      
+      
+      .previsao-climaterica > p {
+        margin: 0.2rem;
+        font-size: 1rem;
+      }
+
+      #festival-photo {
+        transition: visibility 0.5s ease-in-out;
+    }
+      
+    
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.fade {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+#title{
+    color: orange;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+.artist_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.artist_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+    cursor: pointer; 
+}
+
+.artist_block img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 20px 20px 0 0; 
+}
+
+.artist_block video,
+.artist_block iframe {
+    width: 100%;
+    border-radius: 0; 
+    
+}
+
+#titulo_banda {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#descricao {
+    color: black;
+    width: auto;
+    word-wrap: break-word; 
+    text-align: center; 
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#atuacao {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_contacts h2{
+    padding-left: 20px;
+    color: orange;
+    font-size: 40px;
+    text-shadow: 5px 1px 5px black;
+
+}
+#email {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+

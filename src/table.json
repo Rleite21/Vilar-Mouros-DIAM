@@ -1,0 +1,67 @@
+{
+    "artists":[
+        {
+            "name":"GNR" ,
+            "date":"21 de Agosto" ,
+            "hour":"21:45h" ,
+            "image":"https://jorgefernandes.net//storage/artists/March2019/ayJ37CF2agwCHnSUpR5Z.jpg",
+            "video":"https://www.youtube.com/embed/_ohyDuEaFJo?si=cz6rZBAfzmGOSbfO",
+            "description":"Os GNR são uma banda portuguesa de pop-rock formada no Porto em 1980. Reconhecidos pela voz única de Rui Reininho, destacam-se por letras criativas, melodias marcantes e presença emblemática em palco."
+        },
+        {
+            "name":"Fogo Frio",
+            "date":"21 de Agosto" ,
+            "hour":"19:00h" ,
+            "image":"https://scontent.fopo4-2.fna.fbcdn.net/v/t39.30808-6/470464023_122146442114343716_5454122239119949085_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=umfoASDpdGQQ7kNvgFcmw0_&_nc_oc=Adm9Kz5cINDzLH8_xDmgWq23fOnA5R3Pya_CRuboQd0HDlWxZ_BbFC8DUlT4Vo7no42OxKGX8UY1t3x1ggGekX1i&_nc_zt=23&_nc_ht=scontent.fopo4-2.fna&_nc_gid=9QBi0arkleutI1bczzt_lA&oh=00_AYE1cMeRbPzxslXOW0tLT_frMhMRGCu-lsd7S1XD-ZO9zQ&oe=67E4C869",
+            "video":"https://www.youtube.com/embed/dkiesWNAThc?si=K-WqJasHI26S8kan",
+            "description":"Fogo Frio é uma banda portuguesa de rock criada em 2022. Destaca-se pelas músicas originais em português, melodias cativantes, letras criativas, tendo atuado no prestigiado Festival CA Vilar de Mouros."
+        },
+        {
+            "name":"Xutos & Pontapés",
+            "date":"22 de Agosto" ,
+            "hour":"22:30h" ,
+            "image":"https://images.impresa.pt/expresso/2022-09-21-mw-1920.webp-bef4439c/original",
+            "video":"https://www.youtube.com/embed/pQhYQLI-2Tg?si=0lMIfGwVJ2DVvEsx",
+            "description":"Xutos & Pontapés é uma icónica banda portuguesa de rock, formada em 1978. Reconhecidos pela energia contagiante em palco e sucessos intemporais, simbolizam várias gerações e o espírito musical português."
+        },
+        {
+            "name":"Capitão Fausto",
+            "date":"23 de Agosto" ,
+            "hour":"19:45h" ,
+            "image":"https://yt3.googleusercontent.com/0NlgRghBHN3sfVLXapDlD3bkbB6Sdjpt0TWjvLOnleXa63_jCt8lL7JS56fpLMWQ-ydl_VP-og=s900-c-k-c0x00ffffff-no-rj",
+            "video":"https://www.youtube.com/embed/cJDCdhnupeI?si=QQmRrsrdtGPsc8Cc",
+            "description":"Capitão Fausto é uma banda portuguesa de indie rock formada em 2009. Destaca-se pela sonoridade inovadora, letras introspectivas, influências psicadélicas e uma forte ligação ao público jovem e à cultura contemporânea portuguesa."
+        },
+        {
+            "name":"David Fonseca",
+            "date":"24 de Agosto" ,
+            "hour":"19:45h" ,
+            "image":"https://www.rastilhorecords.com/galeria/bandas/3306e1a69ea9742e6609c393a5ca1b64.jpg",
+            "video":"https://www.youtube.com/embed/_VtrSzFnVUY?si=iCjw_vEAgdZIXvDF",
+            "description":"David Fonseca é um músico português, ex-vocalista dos Silence 4, reconhecido pela voz única, criatividade visual e composições emotivas que combinam pop e rock, conquistando múltiplas gerações com sucesso internacional."
+        }
+    ],
+
+    "previsoes":[
+        {
+            "dia": "21/8", 
+            "clima": "Neve", 
+            "AddInfo": ""
+        },
+        {
+            "dia": "22/8", 
+            "clima": "Tempestade", 
+            "AddInfo": "Aviso Vermelho"
+        },
+        {
+            "dia": "23/8", 
+            "clima": "Chuva Torrencial", 
+            "AddInfo": "Tempestade Katrina"
+        },
+        {
+            "dia": "24/8", 
+            "clima": "Ventos Fortes", 
+            "AddInfo": "Furação de Categoria 5"
+        }
+    ]
+}
