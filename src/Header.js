@@ -22,7 +22,7 @@ function Header(){
             </div>
 
             <div id="festival-info">
-                <h3>Festival Vilar dos Mouros CA</h3>
+                <h3>Festival Vilar dos Mouros</h3>
                 <p>O CA Vilar de Mouros terá lugar nos dias 21, 22, 23 e 24 de Agosto de 2025. A icónica aldeia minhota acolhe e dá nome àquele que é o Decano dos Festivais de música na Península Ibérica, e que ano após ano tem vindo a revitalizar a relação da região com a cultura.</p>
 
             </div>
