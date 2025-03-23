@@ -5,6 +5,10 @@ import ArtistPage from './ArtistPage';
 import PrevisaoClimaterica from './PrevisaoClimaterica';
 import Footer from './Footer';
 import table from './table.json';
+import { Route } from 'react-router-dom';
+
+import FormVoluntario from './pages/FormVoluntario';
+
 
 function App() {
   return (
