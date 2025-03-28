@@ -18,7 +18,9 @@ function Header(){
           <table class="main-nav">
               <th><Link to="/">Home</Link></th>
               <th><Link to="/FormVoluntario">Voluntários</Link></th>
+              <th><Link to="/Inquerito">Inquérito</Link></th>
               <th><a href="#cartaz">Cartaz</a></th>
+
           </table>
         </nav>
         
