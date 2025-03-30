@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import FormVoluntario from './pages/FormVoluntario';
 import Inquerito from './pages/Inquerito';
 import RespostaInquerito from './pages/RespostaInquerito';
+import ResultadosInquerito from './pages/ResultadosInquerito';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
         <Route path="/FormVoluntario" element={<FormVoluntario />} />
         <Route path="/Inquerito" element={<Inquerito />} />
         <Route path="/RespostaInquerito" element={<RespostaInquerito />} />
+        <Route path="/ResultadosInquerito" element={<ResultadosInquerito />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -16,6 +16,7 @@ export default function RespostaInquerito() {
 
     return (
         <div>
+            <Header />
             <h1>Obrigado pela sua resposta!</h1>
             <p><strong>Artistas Preferidos:</strong> {artistasList}</p>
             <p><strong>Horário Preferido:</strong> {horariosList}</p>
